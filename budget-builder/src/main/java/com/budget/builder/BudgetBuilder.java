@@ -20,6 +20,7 @@ public class BudgetBuilder extends Application {
         VBox layout = new VBox(10);
         layout.getChildren().addAll(welcomeLabel, addExpenseButton, addIncomeButton, viewSummaryButton);
 
+
         Scene scene = new Scene(layout, 300, 200);
         primaryStage.setScene(scene);
         primaryStage.show();
