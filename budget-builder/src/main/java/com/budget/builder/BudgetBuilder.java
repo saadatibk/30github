@@ -18,6 +18,7 @@ public class BudgetBuilder extends Application {
         Button addIncomeButton = new Button("Add Income");
         Button viewSummaryButton = new Button("View Summary");
 
+
         VBox layout = new VBox(10);
         layout.getChildren().addAll(welcomeLabel, addExpenseButton, addIncomeButton, viewSummaryButton);
 
