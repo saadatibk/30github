@@ -1,4 +1,4 @@
-package main.java.com.budget.builder;
+package com.budget.builder;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
